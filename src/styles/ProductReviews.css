@@ -1,0 +1,32 @@
+.product-reviews {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.product-reviews h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.review-item {
+  margin-bottom: 15px;
+}
+
+.review-rating {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.review-star {
+  width: 20px;
+  margin-right: 2px;
+}
+
+.review-text {
+  font-size: 16px;
+  color: #555;
+}

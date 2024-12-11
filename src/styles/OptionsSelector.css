@@ -1,0 +1,55 @@
+.option-selector {
+    margin-top: 20px;
+  }
+  
+  .option-selector select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .selected-options {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+  }
+  
+  .selected-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .selected-option .quantity-controls {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .selected-option .quantity-controls button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  .selected-option .quantity-controls input {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .selected-option .quantity-controls .remove-btn {
+    background-color: #ff5722;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .total-price {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+  }
+  

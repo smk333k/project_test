@@ -1,0 +1,43 @@
+.product-description {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .product-description h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .product-description h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .description-point {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 15px;
+  }
+  
+  .point-number {
+    width: 30px;
+    height: 30px;
+    background-color: #ff5722;
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .description-point p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  

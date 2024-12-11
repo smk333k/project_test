@@ -1,0 +1,40 @@
+  .product-image-slider {
+    width: 50%;
+    max-width: 400px;
+    position: relative;
+
+  }
+  
+  .main-image {
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+  }
+  
+  .thumbnail-container {
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 축 정렬 (추가 안전장치) */
+    gap: 14px;
+    margin-top: 20px; /* 메인 이미지와 썸네일 간격 */
+    width: 100%; /* 부모 컨테이너 크기 사용 */
+    position: relative;
+}
+
+
+  
+  .thumbnail {
+    margin-left: 6px;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+    opacity: 0.6;
+    transition: opacity 0.3s;
+}
+  
+  .thumbnail:hover,
+  .thumbnail.active {
+    opacity: 1;
+  }
+  

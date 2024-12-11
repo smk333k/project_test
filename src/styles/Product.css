@@ -1,0 +1,32 @@
+/* 메인 컨테이너 스타일 */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+/* 제품 섹션 스타일 */
+.product {
+    display: flex;
+    flex-direction: column; /* 기본적으로 세로 배치 */
+    gap: 20px;
+  }
+  
+  .product-top {
+    display: flex; /* 이미지 슬라이더와 상세 정보를 가로로 배치 */
+    gap: 20px;
+  }
+  
+  .image-slider {
+    flex: 1; /* 슬라이더가 더 많은 공간을 차지하도록 */
+  }
+  
+  .product-details {
+    flex: 1; /* 상세 정보도 동일한 비율로 */
+  }
+  
+
+/* 제품 상세 설명과 이미지 슬라이더를 위한 스타일은 개별 컴포넌트에서 관리 */
