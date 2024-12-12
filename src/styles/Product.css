@@ -26,7 +26,17 @@
   
   .product-details {
     flex: 1; /* 상세 정보도 동일한 비율로 */
+
   }
-  
+
+  .product-summary {
+    margin-top: 20px;
+  }
+
+  .reviews {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ddd; /* 시각적 분리 */
+  }
 
 /* 제품 상세 설명과 이미지 슬라이더를 위한 스타일은 개별 컴포넌트에서 관리 */

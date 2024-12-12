@@ -3,9 +3,8 @@ import ImageSlider from "./ImageSlider";
 import ProductDetails from "./ProductDetails";
 import ProductSummary from "./ProductSummary";
 import ProductDescription from "./ProductDescription";
-import productReviews from "./ProductReviews";
 import "../styles/Product.css";
-import ProductReviews from "./ProductReviews";
+import Reviews from "./Reviews";
 
 const Product = () => {
   return (
@@ -16,7 +15,7 @@ const Product = () => {
       </div>
       <ProductDescription />
       <ProductSummary/>
-      <ProductReviews/>
+      <Reviews/>
     </div>
   );
 };
